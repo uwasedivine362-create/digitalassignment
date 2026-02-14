@@ -1,84 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GoStartup</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-[#0B1220] text-white">
-
-  
-  <header class="flex items-center justify-between px-10 py-6">
-    <div class="flex items-center gap-2 text-2xl font-bold">
-      <span class="text-blue-500">◆</span> GoStartup
-    </div>
-
-    <nav class="hidden md:flex gap-8 text-gray-300">
-      <a href="#" class="text-blue-400">💒Home</a>
-      <a href="#">🪲Features</a>
-      <a href="#">📃Pages</a>
-      <a href="#">🧑‍💻Support</a>
-    </nav>
+<body class="bg-slate-950 text-white">
 
 
+  <header class="w-full fixed top-0 left-0 z-50 bg-slate-950/80 backdrop-blur">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
-    <div class="flex gap-4">
-      <button class="px-5 py-2 bg-red-600 rounded-lg">Sign In</button>
-      <button class="px-5 py-2 bg-red-700 rounded-lg">Sign Up</button>
+
+      <div class="flex items-center space-x-2">
+        <div class="w-8 h-8 bg-gradient-to-tr from-blue-500 to-indigo-600 rounded-lg"></div>
+        <span class="text-xl font-bold">GoStartup</span>
+      </div>
+
+
+      <nav class="hidden md:flex items-center space-x-8 text-gray-300">
+        <a href="#" class="text-blue-500">Home</a>
+        <a href="#" class="hover:text-white">Features</a>
+        <a href="#" class="hover:text-white">Pages</a>
+        <a href="#" class="hover:text-white">Support</a>
+      </nav>
+
+
+      <div class="flex items-center space-x-4">
+        <button class="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700">
+          Sign In
+        </button>
+        <button class="px-4 py-2 rounded-lg border border-gray-600 hover:bg-gray-800">
+          Sign Up
+        </button>
+      </div>
     </div>
   </header>
 
 
-  <p>hello</p>
-  
+  <section class="pt-32 pb-20 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
-  
-  <section class="px-10 py-20 grid md:grid-cols-2 gap-10 items-center">
 
-    
-    <div>
-      <span class="bg-green-800 text-sm px-4 py-2 rounded-full text-green-300">
-        ● Tailwind Template for Startups
-      </span>
+      <div>
+        <span class="inline-block bg-slate-800 text-sm px-4 py-2 rounded-full mb-6">
+          • Tailwind Template for Startups
+        </span>
 
-      <h1 class="text-5xl md:text-6xl font-bold mt-6 leading-tight">
-        Digital Solutions for <br />
-        Your <span class="underline decoration-blue-500">SaaS</span>
-      </h1>
+        <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
+          Digital Solutions for <br />
+          Your <span class="underline decoration-blue-500">Startup</span>
+        </h1>
 
-      <p class="text-green-400 mt-6 max-w-xl">
-        Handcrafted Tailwind CSS template for your next - Startup, Business,
-        Agency or SaaS Website. Comes with refreshing design and everything
-        you need to kickstart your next web project.
-      </p>
+        <p class="text-gray-400 text-lg mb-8">
+          Handcrafted Tailwind CSS template for your next startup,
+          business, agency or SaaS website. Comes with refreshing
+          design and everything you need.
+        </p>
 
-      <div class="flex items-center gap-6 mt-8">
-        <button class="px-6 py-3 bg-green-600 rounded-lg font-semibold">
-          Get Started →
-        </button>
-        <a href="#" class="text-yellow-300">▶ How it Work</a>
+        <div class="flex items-center space-x-6">
+          <button class="px-6 py-3 bg-blue-600 rounded-lg hover:bg-blue-700 flex items-center gap-2">
+            Get Started →
+          </button>
+          <a href="#" class="flex items-center gap-2 text-gray-300 hover:text-white">
+            ▶ How it Works
+          </a>
+        </div>
       </div>
+
+
+      <div class="relative">
+
+
+        <div class="absolute -bottom-10 -right-10 w-72 h-72 bg-blue-600/30 rounded-full blur-3xl"></div>
+
+
+        <img src="white one.jpg" class="relative rounded-xl shadow-2xl w-full" />
+
+
+        <img src="soft.jpg" class="absolute -top-12 -right-10 w-64 rounded-xl shadow-xl border border-white/10" />
+      </div>
+
     </div>
+  </section>
 
 
     
-    
-    <div class="relative flex justify-center">
+    <h2 class="text-3xl md:text-4xl font-bold mt-4">
+      Our Unique & Awesome <br> Core Features
+    </h2>
+
+
+    <div class="grid md:grid-cols-3 gap-10 mt-12">
 
       
-      
-      
+      <div>
+        <div class="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center mx-auto">
           
-      
-      <img src="soft.jpg"
-           class="w-[350px] rounded-xl shadow-xl absolute top-10 right-0 -z-0 opacity-90" />
+          <!-- ICON -->
+          <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M4 22h4V10H4v12zm6 0h4V2h-4v20zm6 0h4V14h-4v8z"/>
+          </svg>
+
+        </div>
+
+        <h3 class="mt-4 font-bold text-lg">Crafted for Startups</h3>
+        <p class="text-gray-400 mt-2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+
+      <!-- Feature 2 -->
+      <div>
+        <div class="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center mx-auto">
+          
+          <!-- ICON -->
+          <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2l10 6-10 6L2 8l10-6z"/>
+          </svg>
+
+        </div>
+
+        <h3 class="mt-4 font-bold text-lg">High-quality Design</h3>
+        <p class="text-gray-400 mt-2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+
+      <!-- Feature 3 -->
+      <div>
+        <div class="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center mx-auto">
+          
+          <!-- ICON -->
+          <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M3 4h18v4H3V4zm0 6h18v10H3V10z"/>
+          </svg>
+
+        </div>
+
+        <h3 class="mt-4 font-bold text-lg">All Essential Sections</h3>
+        <p class="text-gray-400 mt-2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
 
     </div>
 
   </section>
 
 
+
+
 </body>
+
 </html>
